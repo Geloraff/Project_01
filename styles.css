@@ -1,17 +1,26 @@
-/*  id styles */
-#content-container {
-    height: 100%;
-    width: 100%;
-    background: #000000;
+html {
+    height: 2000px;
 }
 
-/*  class styles  */
-.content-container {
-    height: 100%;
+.navbar {
+    margin: none;
+    padding: none;
+    height: 100px;
     width: 100%;
-    background: #000000;
+    border-bottom: 1px solid black;
+    
 }
 
-.button:hover {
-    color: blue;
+.navbar-list li{
+    display: inline-block;
+    
+}
+
+.navbar-link {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
